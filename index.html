@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f9ff">
+    <title>BridgeToCampus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="confettiLayer" aria-hidden="true"></div>
+    <div class="app-shell" id="appShell">
+      <header class="topbar" data-shell="app">
+        <button class="brand" data-route="home" aria-label="Go to dashboard">
+          <span class="material-symbols-outlined filled">spa</span>
+          <span>BridgeToCampus</span>
+        </button>
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <button data-route="home">Home</button>
+          <button data-route="roadmap">Roadmap</button>
+          <button data-route="mission">Missions</button>
+          <button data-route="checklist">Checklist</button>
+        </nav>
+        <button class="avatar" data-route="weekly" aria-label="View weekly progress">
+          <img alt="Student profile" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAf7Ptx8C9FOwwa68hnKNeQ-Ddrf9WlYPhtEzH3fZT2jS-9lgplsRK0UTWQkPGYuHbYhaff0w9dXLkOybWsBV6rZ4KVH66ap4ttJWMFkPG1XCfJYGaE0zAmM0tBdAni7TLmJZddXgcQcw60bKVhNFgad11VrRFd85rmlIg9VxpErPvNen-TVXmBpxCS250TRm_DbcWWTzrL8klRdMgZeUv3MtfN_XWygfGZNEGJQzCdpBOnrK8enFb7jXTyhvWfmV0RVh0JiupdyIlA">
+        </button>
+      </header>
+
+      <main id="view" tabindex="-1"></main>
+
+      <nav class="bottom-nav" data-shell="app" aria-label="Main navigation">
+        <button data-route="home">
+          <span class="material-symbols-outlined">home</span>
+          <span>Home</span>
+        </button>
+        <button data-route="roadmap">
+          <span class="material-symbols-outlined">map</span>
+          <span>Roadmap</span>
+        </button>
+        <button data-route="mission">
+          <span class="material-symbols-outlined">explore</span>
+          <span>Missions</span>
+        </button>
+        <button data-route="checklist">
+          <span class="material-symbols-outlined">fact_check</span>
+          <span>Checklist</span>
+        </button>
+      </nav>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
