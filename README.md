@@ -1,35 +1,21 @@
 # BridgeToCampus
 
-A static, GitHub Pages-ready prototype for the BridgeToCampus readiness companion.
+BridgeToCampus is an interactive 90-day readiness web app prototype for international students preparing to study in the United States.
 
-## Files served by GitHub Pages
+It helps students prepare not only visa and finance tasks, but also speaking, campus culture, communication, and emotional confidence before arrival.
 
-- `index.html`
-- `styles.css`
-- `app.js`
-- `.nojekyll`
-- `404.html`
+This project was created for the Google Stitch Challenge.
 
-The site has no build step. It can be published directly from the repository root.
+## Built With
 
-## Local Preview
+- Google Stitch
+- AI edits using prompts
+- Source code export
+- HTML/CSS/JavaScript
+- Animation and motion effects
+- GitHub Pages
 
-```bash
-python3 -m http.server 4173 --bind 0.0.0.0
-```
+## Links
 
-Then open:
-
-```text
-http://127.0.0.1:4173/index.html
-```
-
-## GitHub Pages Setup
-
-1. Create a GitHub repository.
-2. Push this project to the repository.
-3. In the repository, open `Settings` -> `Pages`.
-4. Under `Build and deployment`, set `Source` to `Deploy from a branch`.
-5. Select branch `main` and folder `/ (root)`.
-6. Save. GitHub will show the public Pages URL after deployment.
-
+- Live Website: https://shin0343.github.io/bridge_to_campus/
+- Google Stitch Prototype: https://stitch.withgoogle.com/preview/12368309269854151078?node-id=4ad26a68a7044b0490c630f924bef498
